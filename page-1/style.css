@@ -32,6 +32,10 @@
 .container {
     display: flex;
 }
+.titles {
+    display: flex;
+    justify-content: center;
+}
 
 /** Header */
 .container#header {
@@ -43,14 +47,26 @@
     padding: 0;
 }
 
+.container#header p {
+    margin: 10px;
+}
 
 /** Body */
 .container#body {
     background-color: rgb(172, 172, 172);
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
+.container#body p {
+    margin: 10px;
+}
 
 /** Footer */
 .container#footer {
     background-color: rgb(210, 210, 210);
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
