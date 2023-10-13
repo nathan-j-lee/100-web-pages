@@ -1,7 +1,8 @@
+/** Navigation bar */
 .container#navigation {
     background-color: rgb(41, 41, 41);
     color: white;
-    
+
     display: flex;
     justify-content: flex-start;
 }
@@ -17,7 +18,7 @@
     padding: 0;
 }
 
-li {
+#navi-items li {
     padding: 10px;
 }
 
@@ -26,19 +27,30 @@ li {
     font-weight: bold;
 }
 
+/** Global */
+
 .container {
     display: flex;
 }
 
+/** Header */
 .container#header {
     background-color: rgb(93, 93, 93);
     color: white;
+
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
+
+/** Body */
 .container#body {
     background-color: rgb(172, 172, 172);
 }
 
+
+/** Footer */
 .container#footer {
     background-color: rgb(210, 210, 210);
 }
