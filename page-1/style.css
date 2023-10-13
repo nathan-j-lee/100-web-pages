@@ -1,5 +1,38 @@
+.container#navigation {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+#navi-items {
+    text-decoration: none;
+    list-style-type: none;
+    
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
 .container#header {
-    background-color: grey;
+    background-color: rgb(93, 93, 93);
+    color: white;
 }
 
 .container#body {
