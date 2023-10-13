@@ -1,0 +1,11 @@
+.container#header {
+    background-color: grey;
+}
+
+.container#body {
+    background-color: rgb(172, 172, 172);
+}
+
+.container#footer {
+    background-color: rgb(210, 210, 210);
+}
