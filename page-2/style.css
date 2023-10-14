@@ -1,3 +1,4 @@
+
 .container#navigation {
     background-color: rgb(137, 0, 137);
 }
@@ -8,7 +9,7 @@
 }
 
 .nav-bar li {
-    font-size: calc(30px+1.5vw);
+    font-size: calc(30px+1.5rem);
     color: rgb(255, 255, 255);
     padding: 1.5vw;
 }
@@ -19,5 +20,27 @@
 }
 
 .title {
-    font-size: calc(50px + 1.5vw);
+    font-size: calc(8px + 1rem);
+}
+
+#void-hunter {
+    padding: 10px;
+    flex: 1 0 auto;
+}
+
+.container#header {
+    background-color: rgb(134, 89, 134);
+    color: white;
+    display: flex;
+}
+
+.content {
+    background-color: rgb(255, 198, 247);
+}
+
+.container#header p {
+    font-size: calc(10px + 0.5rem);
+    color: black;
+    flex: 0 1 auto;
+    padding: 5px;
 }
